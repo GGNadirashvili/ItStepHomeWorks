@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileStream", "FileStream\Fi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CheckDirectory", "CheckDirectory\CheckDirectory.csproj", "{DEA89DC7-F457-4CA3-93E3-82CD935C47FC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerializationAndDeserialization", "SerializationAndDeserialization\SerializationAndDeserialization.csproj", "{DA3E692F-AAD9-4E03-AEB4-068611EF09D8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SerializationAndDeserialization", "SerializationAndDeserialization\SerializationAndDeserialization.csproj", "{DA3E692F-AAD9-4E03-AEB4-068611EF09D8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomAttribute", "DeviceParameterLoader\CustomAttribute.csproj", "{4B4DE837-9CFA-4EAB-813D-691979141A16}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{DA3E692F-AAD9-4E03-AEB4-068611EF09D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DA3E692F-AAD9-4E03-AEB4-068611EF09D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DA3E692F-AAD9-4E03-AEB4-068611EF09D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B4DE837-9CFA-4EAB-813D-691979141A16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B4DE837-9CFA-4EAB-813D-691979141A16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B4DE837-9CFA-4EAB-813D-691979141A16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B4DE837-9CFA-4EAB-813D-691979141A16}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

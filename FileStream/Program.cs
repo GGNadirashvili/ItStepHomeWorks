@@ -7,7 +7,7 @@ class Program
         string filePath = "C:\\Users\\georg\\OneDrive\\Desktop\\records.txt";
 
         Console.WriteLine("Enter Some Text:");
-        string userInput = Console.ReadLine();
+        string userInput = Console.ReadLine()!;
 
         string[] records = {
             userInput!
@@ -41,7 +41,7 @@ class Program
                 using (StreamReader streamReader = new StreamReader(fileStream))
                 {
                     string line;
-                    while ((line = streamReader.ReadLine()) != null)
+                    while ((line = streamReader.ReadLine()!) != null)
                     {
                         Console.WriteLine(line);
                     }
